@@ -1,0 +1,41 @@
+*{margin:0;padding:0;}
+
+body{}
+.centrado{width:980px;margin:auto;}
+
+main{background-color:#f0f2f5;padding-top:112px;padding-bottom:72px;}
+main .centrado{display: flex;padding:20px 0;}
+main .centrado #institucional{width:580px;padding-right: 32px;}
+main .centrado #institucional #logo{padding:112px 0 16px;}
+main .centrado #institucional #logo img{height:106px;margin:-28px;}
+main .centrado #institucional p{font-size: 28px;color:#1c1e21;width:500px;}
+
+#menu{text-align: center;height:456px;width:396px;margin-top:40px;}
+#menu #blanco{background-color: #fff;border-radius:8px;padding:10px 0 24px;box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);}
+#menu #blanco input{width:330px;padding:14px 16px;border-radius:6px;border:solid 1px #dddfe2;background:#fff;font-size:17px;color:#1d2129;margin:6px 0;}
+#menu #blanco input#iniciar{width:364px;background-color:#1877f2;color:#fff;font-weight:bold;font-size:20px;cursor: pointer;}
+#menu #blanco #form a{display:block;margin-top:16px;color:#1877f2;font-size:14px;text-decoration:none;border-bottom:1px solid #dadde1;margin:20px 16px;padding-bottom:20px;}
+#menu #blanco #form a:hover{text-decoration:underline;}
+
+#menu #blanco #form{}
+
+#menu #blanco #crear a{background-color:#42b72a;font-size:17px;line-height:48px;border-radius:6px;padding:0 16px;white-space:nowrap;color:#fff;font-weight:bold;text-decoration:none;display: inline-block;}
+#menu #blanco #crear a:hover{background-color:#36a420;}
+
+#menu p{margin-top:28px;font-size:14px;}
+#menu p a{font-weight: bold;color:#000;text-decoration:none;}
+#menu p a:hover{text-decoration:underline;}
+
+footer{margin-top:20px;}
+footer #uno{padding-bottom:8px;border-bottom:solid 1px #dddfe2;margin-bottom:8px;}
+footer .centrado ul{display: flex;flex-wrap: wrap;align-items: center;}
+footer .centrado ul li{display:inline;color:#8a8d91;font-size:12px;padding-left:20px;}
+footer .centrado ul#uno li:first-child{padding:0;}
+footer .centrado ul li a{color:#8a8d91;text-decoration:none;}
+footer .centrado ul li a:hover{text-decoration:underline;}
+footer .centrado ul li#mas a{display: inline-block;height:18px;line-height: 18px;border:solid 1px #ccd0d5;background-color:#f5f6f7;padding:0 8px;border-radius:2px;font-size:14px;font-weight:bold;text-decoration:none;}
+
+footer #dos{margin-left:-20px;}
+footer #dos li{line-height:23px;}
+
+footer .centrado p{font-size:11px;margin:20px auto;}
